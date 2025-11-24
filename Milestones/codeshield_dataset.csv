@@ -1,0 +1,61 @@
+code_id,vulnerability_type,is_vulnerable,code_length,annotator_1_label,annotator_2_label
+1,SQL Injection,True,28,vulnerable,not vulnerable
+2,SQL Injection,True,5,not vulnerable,not vulnerable
+3,Hardcoded Secret,True,28,vulnerable,vulnerable
+4,Unsafe Eval,True,24,vulnerable,vulnerable
+5,SQL Injection,True,15,vulnerable,vulnerable
+6,No Vulnerability,True,21,vulnerable,vulnerable
+7,Hardcoded Secret,True,12,vulnerable,vulnerable
+8,Unsafe Eval,True,8,not vulnerable,not vulnerable
+9,SQL Injection,True,10,vulnerable,vulnerable
+10,No Vulnerability,False,12,not vulnerable,vulnerable
+11,Unsafe Eval,True,24,vulnerable,vulnerable
+12,Unsafe Eval,True,7,vulnerable,not vulnerable
+13,Hardcoded Secret,True,20,not vulnerable,vulnerable
+14,SQL Injection,True,29,not vulnerable,vulnerable
+15,Unsafe Eval,True,7,vulnerable,vulnerable
+16,SQL Injection,True,29,not vulnerable,not vulnerable
+17,SQL Injection,True,22,vulnerable,vulnerable
+18,SQL Injection,False,18,vulnerable,not vulnerable
+19,Unsafe Eval,False,22,vulnerable,not vulnerable
+20,SQL Injection,True,6,vulnerable,vulnerable
+21,Unsafe Eval,True,26,vulnerable,not vulnerable
+22,Insecure Deserialization,True,7,vulnerable,vulnerable
+23,Hardcoded Secret,True,20,vulnerable,not vulnerable
+24,No Vulnerability,True,13,vulnerable,not vulnerable
+25,Insecure Deserialization,True,8,vulnerable,vulnerable
+26,No Vulnerability,True,5,not vulnerable,vulnerable
+27,SQL Injection,True,8,vulnerable,not vulnerable
+28,Insecure Deserialization,True,5,vulnerable,vulnerable
+29,SQL Injection,True,18,not vulnerable,vulnerable
+30,Hardcoded Secret,False,25,vulnerable,vulnerable
+31,Insecure Deserialization,True,20,vulnerable,vulnerable
+32,SQL Injection,True,24,vulnerable,not vulnerable
+33,Insecure Deserialization,True,28,vulnerable,vulnerable
+34,No Vulnerability,True,12,not vulnerable,vulnerable
+35,SQL Injection,True,11,not vulnerable,vulnerable
+36,Hardcoded Secret,False,7,vulnerable,not vulnerable
+37,Unsafe Eval,True,21,not vulnerable,vulnerable
+38,Unsafe Eval,True,5,not vulnerable,not vulnerable
+39,Hardcoded Secret,False,20,vulnerable,vulnerable
+40,Insecure Deserialization,True,16,not vulnerable,not vulnerable
+41,Unsafe Eval,True,23,vulnerable,vulnerable
+42,SQL Injection,True,26,not vulnerable,vulnerable
+43,Insecure Deserialization,True,27,not vulnerable,vulnerable
+44,SQL Injection,True,26,vulnerable,not vulnerable
+45,Unsafe Eval,True,18,vulnerable,not vulnerable
+46,Hardcoded Secret,True,10,vulnerable,vulnerable
+47,Hardcoded Secret,True,10,vulnerable,not vulnerable
+48,Insecure Deserialization,True,17,not vulnerable,not vulnerable
+49,Unsafe Eval,True,23,not vulnerable,vulnerable
+50,SQL Injection,True,26,vulnerable,vulnerable
+51,Insecure Deserialization,True,12,vulnerable,vulnerable
+52,Insecure Deserialization,True,6,vulnerable,vulnerable
+53,No Vulnerability,True,25,vulnerable,not vulnerable
+54,Insecure Deserialization,True,5,vulnerable,not vulnerable
+55,SQL Injection,True,19,vulnerable,not vulnerable
+56,Unsafe Eval,True,5,not vulnerable,vulnerable
+57,SQL Injection,True,9,vulnerable,vulnerable
+58,Insecure Deserialization,True,20,vulnerable,not vulnerable
+59,Unsafe Eval,True,23,not vulnerable,not vulnerable
+60,Hardcoded Secret,True,8,vulnerable,not vulnerable

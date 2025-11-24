@@ -1,0 +1,31 @@
+CWE-89: SQL Injection
+CWE-79: Cross-Site Scripting (XSS)
+CWE-77: Command Injection
+CWE-798: Hardcoded Credentials
+CWE-502: Insecure Deserialization
+CWE-22: Path Traversal
+CWE-120: Buffer Overflow
+CWE-20: Improper Input Validation
+CWE-326: Inadequate Encryption Strength
+CWE-95: Use of eval() with user input
+CWE-1021: Clickjacking
+CWE-434: Unrestricted File Upload
+CWE-416: Use After Free
+CWE-190: Integer Overflow/Wraparound
+CWE-611: XML External Entity (XXE)
+CWE-532: Information Exposure Through Logs
+CWE-613: Insufficient Session Expiration
+CWE-284: Improper Access Control
+CWE-362: Race Condition
+CWE-400: Uncontrolled Resource Consumption
+CWE-287: Improper Authentication
+CWE-295: Improper Certificate Validation
+CWE-352: Cross-Site Request Forgery (CSRF)
+CWE-840: Business Logic Errors
+CWE-209: Exposure of Sensitive Info in Error Msgs
+CWE-306: Unprotected API Endpoints
+CWE-276: Incorrect Default Permissions
+CWE-759: Cryptographic Issues - No Salt
+CWE-862: Missing Authorization Checks
+CWE-377: Unsafe Use of Temporary Files
+None

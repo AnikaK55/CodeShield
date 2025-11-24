@@ -1,0 +1,725 @@
+{"code_snippet": "import os\nfilename = input(\"Enter filename: \")\nos.system(\"cat \" + filename)", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "# Simulated Unprotected API Endpoints snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Unprotected API Endpoints"}
+{"code_snippet": "my_dict = {\"a\": 1, \"b\": 2}\nprint(my_dict.get(\"a\"))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "username = \"admin\"\npassword = \"1234\"\nconnect(username, password)", "is_vulnerable": true, "vulnerability_type": "Hardcoded Credentials"}
+{"code_snippet": "# Vulnerable snippet for Integer Overflow/Wraparound\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Integer Overflow/Wraparound"}
+{"code_snippet": "# Vulnerable snippet for Integer Overflow/Wraparound\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Integer Overflow/Wraparound"}
+{"code_snippet": "# Simulated Race Condition snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Race Condition"}
+{"code_snippet": "def reverse(s):\n    return s[::-1]", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Example of Race Condition\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Race Condition"}
+{"code_snippet": "# Simulated XML External Entity (XXE) snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "XML External Entity (XXE)"}
+{"code_snippet": "user_input = input(\"Enter user ID: \")\ncursor.execute(\"SELECT * FROM users WHERE id = \" + user_input)", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "# Example of Improper Authentication\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Improper Authentication"}
+{"code_snippet": "# Vulnerable snippet for Inadequate Encryption Strength\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Inadequate Encryption Strength"}
+{"code_snippet": "# Simulated Race Condition snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Race Condition"}
+{"code_snippet": "api_key = \"ABC123456789\"\nrequests.get(url, headers={\"Authorization\": api_key})", "is_vulnerable": true, "vulnerability_type": "Hardcoded Credentials"}
+{"code_snippet": "# Example of Improper Certificate Validation\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Improper Certificate Validation"}
+{"code_snippet": "names = [\"Alice\", \"Bob\"]\nfor name in names:\n    print(name)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Vulnerable snippet for Improper Access Control\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Improper Access Control"}
+{"code_snippet": "# Simulated Cryptographic Issues - No Salt snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Cryptographic Issues - No Salt"}
+{"code_snippet": "def multiply(x, y):\n    return x * y", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Simulated Improper Certificate Validation snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Improper Certificate Validation"}
+{"code_snippet": "# Simulated Business Logic Errors snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Business Logic Errors"}
+{"code_snippet": "filepath = input(\"Enter path: \")\nwith open(filepath, \"r\") as f:\n    print(f.read())", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "# Simulated Missing Authorization Checks snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Missing Authorization Checks"}
+{"code_snippet": "if __name__ == \"__main__\":\n    print(\"Safe script\")", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"Enter name: \")\nhtml = \"<p>\" + user_input + \"</p>\"\nrender(html)", "is_vulnerable": true, "vulnerability_type": "Cross-Site Scripting (XSS)"}
+{"code_snippet": "user_cmd = input(\"cmd: \")\nos.popen(user_cmd)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "# Simulated Inadequate Encryption Strength snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Inadequate Encryption Strength"}
+{"code_snippet": "# Simulated Information Exposure Through Logs snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Information Exposure Through Logs"}
+{"code_snippet": "# Simulated Use After Free snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Use After Free"}
+{"code_snippet": "# Vulnerable snippet for Exposure of Sensitive Info in Error Msgs\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "# Example of Unrestricted File Upload\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Unrestricted File Upload"}
+{"code_snippet": "with open(\"data.txt\", \"r\") as f:\n    content = f.read()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def greet(name):\n    print(f\"Hello, {name}!\")", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "expr = input(\"Enter formula: \")\nresult = eval(expr)\nprint(result)", "is_vulnerable": true, "vulnerability_type": "Unsafe Eval Use"}
+{"code_snippet": "# Vulnerable snippet for Missing Authorization Checks\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Missing Authorization Checks"}
+{"code_snippet": "id = request.args.get(\"id\")\nsql = \"DELETE FROM accounts WHERE id=\" + id\ncursor.execute(sql)", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "# Simulated Cross-Site Request Forgery (CSRF) snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "import os\nip = input(\"Enter IP: \")\nos.system(\"ping \" + ip)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "# Simulated Inadequate Encryption Strength snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Inadequate Encryption Strength"}
+{"code_snippet": "user_age = int(input(\"Age: \"))\nif user_age > 18:\n    print(\"Adult\")", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Example of Clickjacking\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Clickjacking"}
+{"code_snippet": "# Simulated Business Logic Errors snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Business Logic Errors"}
+{"code_snippet": "filepath = input(\"Enter path: \")\nwith open(filepath, \"r\") as f:\n    print(f.read())", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "# Simulated Cryptographic Issues - No Salt snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Cryptographic Issues - No Salt"}
+{"code_snippet": "# Vulnerable snippet for Incorrect Default Permissions\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Incorrect Default Permissions"}
+{"code_snippet": "# Simulated Business Logic Errors snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Business Logic Errors"}
+{"code_snippet": "x = 5\ny = 10\nprint(x + y)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Simulated XML External Entity (XXE) snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "XML External Entity (XXE)"}
+{"code_snippet": "def average(lst):\n    return sum(lst)/len(lst)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Vulnerable snippet for Buffer Overflow\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Buffer Overflow"}
+{"code_snippet": "expr = input(\"Enter formula: \")\nresult = eval(expr)\nprint(result)", "is_vulnerable": true, "vulnerability_type": "Unsafe Eval Use"}
+{"code_snippet": "# Example of Cryptographic Issues - No Salt\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Cryptographic Issues - No Salt"}
+{"code_snippet": "# Example of Use After Free\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Use After Free"}
+{"code_snippet": "# Simulated Unrestricted File Upload snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Unrestricted File Upload"}
+{"code_snippet": "# Simulated Improper Access Control snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Improper Access Control"}
+{"code_snippet": "# Simulated Exposure of Sensitive Info in Error Msgs snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "# Simulated Business Logic Errors snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Business Logic Errors"}
+{"code_snippet": "# Simulated Information Exposure Through Logs snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Information Exposure Through Logs"}
+{"code_snippet": "# Example of Improper Access Control\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Improper Access Control"}
+{"code_snippet": "user_input = input(\"Enter name: \")\nhtml = \"<p>\" + user_input + \"</p>\"\nrender(html)", "is_vulnerable": true, "vulnerability_type": "Cross-Site Scripting (XSS)"}
+{"code_snippet": "def is_even(x):\n    return x % 2 == 0", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Vulnerable snippet for Unrestricted File Upload\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Unrestricted File Upload"}
+{"code_snippet": "# Vulnerable snippet for Clickjacking\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Clickjacking"}
+{"code_snippet": "# Vulnerable snippet for Improper Authentication\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Improper Authentication"}
+{"code_snippet": "# Example of Unsafe Use of Temporary Files\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Unsafe Use of Temporary Files"}
+{"code_snippet": "# Vulnerable snippet for Buffer Overflow\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Buffer Overflow"}
+{"code_snippet": "# Example of Exposure of Sensitive Info in Error Msgs\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "def square(n):\n    return n * n", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "import math\nprint(math.sqrt(16))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Simulated Improper Access Control snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Improper Access Control"}
+{"code_snippet": "# Example of Improper Certificate Validation\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Improper Certificate Validation"}
+{"code_snippet": "# Simulated Improper Authentication snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Improper Authentication"}
+{"code_snippet": "# Simulated Clickjacking snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Clickjacking"}
+{"code_snippet": "# Simulated Improper Input Validation snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Improper Input Validation"}
+{"code_snippet": "# Simulated Insecure Deserialization snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Insecure Deserialization"}
+{"code_snippet": "# Simulated Insufficient Session Expiration snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Insufficient Session Expiration"}
+{"code_snippet": "# Simulated Uncontrolled Resource Consumption snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Uncontrolled Resource Consumption"}
+{"code_snippet": "# Example of XML External Entity (XXE)\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "XML External Entity (XXE)"}
+{"code_snippet": "# Simulated Cryptographic Issues - No Salt snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Cryptographic Issues - No Salt"}
+{"code_snippet": "# Example of Incorrect Default Permissions\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Incorrect Default Permissions"}
+{"code_snippet": "# Simulated Unprotected API Endpoints snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Unprotected API Endpoints"}
+{"code_snippet": "# Simulated Integer Overflow/Wraparound snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Integer Overflow/Wraparound"}
+{"code_snippet": "# Example of Use After Free\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Use After Free"}
+{"code_snippet": "# Example of Incorrect Default Permissions\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Incorrect Default Permissions"}
+{"code_snippet": "import datetime\nprint(datetime.datetime.now())", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Vulnerable snippet for Uncontrolled Resource Consumption\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Uncontrolled Resource Consumption"}
+{"code_snippet": "# Vulnerable snippet for Buffer Overflow\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Buffer Overflow"}
+{"code_snippet": "# Vulnerable snippet for Missing Authorization Checks\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Missing Authorization Checks"}
+{"code_snippet": "id = request.args.get(\"id\")\nsql = \"DELETE FROM accounts WHERE id=\" + id\ncursor.execute(sql)", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "# Simulated Unprotected API Endpoints snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Unprotected API Endpoints"}
+{"code_snippet": "# Example of Insufficient Session Expiration\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Insufficient Session Expiration"}
+{"code_snippet": "# Simulated Improper Input Validation snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Improper Input Validation"}
+{"code_snippet": "# Example of Uncontrolled Resource Consumption\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Uncontrolled Resource Consumption"}
+{"code_snippet": "# Simulated Improper Input Validation snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Improper Input Validation"}
+{"code_snippet": "def factorial(n):\n    return 1 if n==0 else n*factorial(n-1)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "try:\n    print(10/2)\nexcept ZeroDivisionError:\n    print(\"Error\")", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Example of Information Exposure Through Logs\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Information Exposure Through Logs"}
+{"code_snippet": "# Simulated Unsafe Use of Temporary Files snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Unsafe Use of Temporary Files"}
+{"code_snippet": "# Vulnerable snippet for Improper Input Validation\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Improper Input Validation"}
+{"code_snippet": "# Vulnerable snippet for XML External Entity (XXE)\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "XML External Entity (XXE)"}
+{"code_snippet": "# Vulnerable snippet for Insecure Deserialization\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Insecure Deserialization"}
+{"code_snippet": "user_cmd = input(\"cmd: \")\nos.popen(user_cmd)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "def add(a, b):\n    return a + b", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "search = request.args.get(\"q\")\nreturn f\"<h1>{search}</h1>\"", "is_vulnerable": true, "vulnerability_type": "Cross-Site Scripting (XSS)"}
+{"code_snippet": "# Simulated Insecure Deserialization snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Insecure Deserialization"}
+{"code_snippet": "user_input = input(\"Math expression: \")\nprint(eval(user_input))", "is_vulnerable": true, "vulnerability_type": "Unsafe Eval Use"}
+{"code_snippet": "# Simulated Insufficient Session Expiration snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Insufficient Session Expiration"}
+{"code_snippet": "# Example of Uncontrolled Resource Consumption\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Uncontrolled Resource Consumption"}
+{"code_snippet": "# Example of Cross-Site Request Forgery (CSRF)\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "api_key = \"ABC123456789\"\nrequests.get(url, headers={\"Authorization\": api_key})", "is_vulnerable": true, "vulnerability_type": "Hardcoded Credentials"}
+{"code_snippet": "with open(\"log.txt\", \"a\") as log:\n    log.write(\"App started\\n\")", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Simulated Unsafe Use of Temporary Files snippet\nprint('placeholder 3')", "is_vulnerable": true, "vulnerability_type": "Unsafe Use of Temporary Files"}
+{"code_snippet": "for i in range(10):\n    print(i)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Vulnerable snippet for Cross-Site Request Forgery (CSRF)\nprint('placeholder 1')", "is_vulnerable": true, "vulnerability_type": "Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "numbers = [1, 2, 3]\nprint([n*2 for n in numbers])", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "# Example of Use After Free\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Use After Free"}
+{"code_snippet": "# Example of Inadequate Encryption Strength\nprint('placeholder 2')", "is_vulnerable": true, "vulnerability_type": "Inadequate Encryption Strength"}
+{"code_snippet": "cursor.execute(\"SELECT * FROM users WHERE id='\" + user_input + \"'\")", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "query = \"SELECT * FROM accounts WHERE password='{}'\".format(password)\ncursor.execute(query)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "@app.route('/search')\ndef search():\n    query = request.args.get('q')\n    return '<h1>Results for: {}</h1>'.format(query)", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-site Scripting (XSS)"}
+{"code_snippet": "name = request.args.get('name')\nresponse = '<div>Hello, ' + name + '</div>'\nreturn response", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-site Scripting (XSS)"}
+{"code_snippet": "import os\ndef ping_server():\n    server = input('Server address: ')\n    os.system('ping ' + server)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "import subprocess\ndef delete_file():\n    file = input('Filename: ')\n    subprocess.call('rm ' + file, shell=True)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "db_password = 'SuperSecret123'\nconnect_to_db(password=db_password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hard-coded Credentials"}
+{"code_snippet": "API_KEY = 'abcd1234secretkey'\ndef get_api_data():\n    response = requests.get('https://api.example.com/data?api_key=' + API_KEY)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hard-coded Credentials"}
+{"code_snippet": "import pickle\ndef load_object(data):\n    return pickle.loads(data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "import yaml\ndef parse_yaml(yaml_data):\n    return yaml.load(yaml_data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "from flask import send_file\n@app.route('/download/<path:filename>')\ndef download_file(filename):\n    return send_file('/var/www/data/' + filename)", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "def read_user_file(file_name):\n    with open('/data/files/' + file_name, 'r') as file:\n        return file.read()", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "def copy_input(user_input):\n    buffer = bytearray(10)\n    buffer[:len(user_input)] = user_input", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "def unsafe_input(data):\n    buf = [0]*5\n    for i in range(len(data)):\n        buf[i] = data[i]", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "def process_age(age):\n    if age < 0:\n        raise ValueError('Invalid age!')", "is_vulnerable": false, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "def add_user(username):\n    if username:\n        users.append(username)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "import ssl\nssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv2)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Insecure Protocol Usage"}
+{"code_snippet": "eval('user_provided_string')", "is_vulnerable": true, "vulnerability_type": "CWE-95: Eval Injection"}
+{"code_snippet": "xml.etree.ElementTree.parse(user_provided_file)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XML External Entity (XXE)"}
+{"code_snippet": "def upload_file(f):\n    f.save('/uploads/' + f.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "def greet_user(name):\n    print(f'Hello, {name}!')", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def safe_query(cursor, user_id):\n    cursor.execute(\"SELECT * FROM users WHERE id = %s\", (user_id,))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def sanitize_html(user_input):\n    return escape(user_input)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def read_file(file_path):\n    if os.path.isfile(file_path):\n        with open(file_path, 'r') as f:\n            return f.read()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def hash_password(password):\n    return hashlib.sha256(password.encode()).hexdigest()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def validate_age(age):\n    if not isinstance(age, int) or age < 0:\n        raise ValueError('Invalid age')", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def connect_ssl():\n    context = ssl.create_default_context()\n    context.load_verify_locations('cert.pem')", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def json_serialize(data):\n    return json.dumps(data)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def fetch_data(url):\n    response = requests.get(url, timeout=10)\n    return response.text", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def save_to_file(filename, data):\n    with open(filename, 'w') as f:\n        f.write(data)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def authenticate_user(user, password):\n    if user in database and database[user] == hash_password(password):\n        return True\n    return False", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def safe_eval(expr):\n    allowed_names = {'abs': abs, 'round': round}\n    return eval(expr, {'__builtins__': None}, allowed_names)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def upload_allowed_file(filename):\n    allowed_extensions = ['jpg', 'png']\n    return '.' in filename and filename.rsplit('.', 1)[1] in allowed_extensions", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def format_message(template, name):\n    return template.format(name=name)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def safe_deserialize(data):\n    return json.loads(data)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def get_secure_token():\n    return secrets.token_hex(16)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def log_safe_event(message):\n    logging.info('Event occurred')", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def get_input(prompt):\n    return input(prompt).strip()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def encrypt_data(data, key):\n    cipher = AES.new(key, AES.MODE_CBC)\n    return cipher.encrypt(pad(data.encode(), AES.block_size))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def run_query(cursor, param):\n    cursor.execute('SELECT * FROM table WHERE column = %s', (param,))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "cursor.execute(\"SELECT * FROM users WHERE email='\" + email + \"'\")", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "query = f\"SELECT * FROM products WHERE id = '{product_id}'\"\ncursor.execute(query)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "return f\"<div>{request.args.get('input')}</div>\"", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-site Scripting (XSS)"}
+{"code_snippet": "html = '<p>' + user_input + '</p>'\nreturn html", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-site Scripting (XSS)"}
+{"code_snippet": "os.system('rm -rf ' + user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "subprocess.call('ls ' + folder, shell=True)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "PASSWORD = 'mypassword'\nconnect(PASSWORD)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hard-coded Credentials"}
+{"code_snippet": "def login():\n    return 'admin', 'admin123'", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hard-coded Credentials"}
+{"code_snippet": "pickle.loads(user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "yaml.load(user_input, Loader=yaml.Loader)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "with open('/var/data/' + request.args['file']) as f:\n    return f.read()", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "filename = '../../etc/passwd'\nwith open(filename) as f:\n    data = f.read()", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "def write_to_file(data):\n    buffer = bytearray(5)\n    for i in range(len(data)):\n        buffer[i] = data[i]", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "buf = [0]*4\nfor i in range(10):\n    buf[i] = i", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "if request.form['age']:\n    age = int(request.form['age'])", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "if password:\n    login(password)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_TLSv1)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Weak Encryption"}
+{"code_snippet": "eval(input('Enter expression: '))", "is_vulnerable": true, "vulnerability_type": "CWE-95: Eval Injection"}
+{"code_snippet": "exec(user_code)", "is_vulnerable": true, "vulnerability_type": "CWE-95: Eval Injection"}
+{"code_snippet": "def process_xml(xml):\n    return etree.XML(xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XXE"}
+{"code_snippet": "f.save('/tmp/' + f.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "open(f'/uploads/{file}', 'wb')", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "del obj\nprint(obj.attr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "array = [1, 2, 3]\ndel array[2]\nprint(array[2])", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow"}
+{"code_snippet": "y = 256 * 256 * 256 * 256", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow"}
+{"code_snippet": "tree = etree.parse(input_xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XXE"}
+{"code_snippet": "print(f\"Login failed: {error}\")", "is_vulnerable": true, "vulnerability_type": "CWE-209: Information Exposure"}
+{"code_snippet": "return f\"Error: {str(e)}\"", "is_vulnerable": true, "vulnerability_type": "CWE-209: Information Exposure"}
+{"code_snippet": "if request.args.get('token'):\n    return 'Access granted'", "is_vulnerable": true, "vulnerability_type": "CWE-613: Inadequate Session Expiration"}
+{"code_snippet": "app.secret_key = '12345'", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hard-coded Credentials"}
+{"code_snippet": "def set_permissions(user):\n    user.permissions = 'all'", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "if admin:\n    run_admin_task()", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "with open('temp.txt', 'w') as f:\n    f.write('test')\nos.remove('temp.txt')", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "if not locked:\n    resource += 1", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "def infinite_loop():\n    while True:\n        pass", "is_vulnerable": true, "vulnerability_type": "CWE-400: Resource Exhaustion"}
+{"code_snippet": "def memory_hog():\n    return [0] * (10**9)", "is_vulnerable": true, "vulnerability_type": "CWE-400: Resource Exhaustion"}
+{"code_snippet": "import subprocess\nsubprocess.call(['ls', user_dir])", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "with open('config.yaml') as f:\n    data = yaml.safe_load(f)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "password = os.getenv('DB_PASS')\nconnect(db, password)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "cursor.execute(f\"SELECT * FROM users WHERE name='{name}'\")", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "html = '<div>' + escape(user_input) + '</div>'", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "token = input('CSRF_TOKEN: ')\nif token == session['csrf']:\n    proceed()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "os.system('rm -rf ' + path)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "data = json.loads(user_payload)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "xml = request.data\ndoc = ET.parse(io.StringIO(xml))", "is_vulnerable": true, "vulnerability_type": "XML External Entity (XXE)"}
+{"code_snippet": "def add(a, b):\n    return a + b", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "os.popen('ping ' + host)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "cursor.execute('INSERT INTO log (msg) VALUES (%s)', (msg,))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "return render_template('page.html', user=user_input)", "is_vulnerable": true, "vulnerability_type": "Cross-Site Scripting (XSS)"}
+{"code_snippet": "config = open('/etc/passwd').read()", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "with open(filename, 'rb') as f:\n    data = f.read()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "token = secrets.token_hex(16)\nprint(token)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "exec(code_from_user)", "is_vulnerable": true, "vulnerability_type": "Unsafe Eval Use"}
+{"code_snippet": "def sqrt(x):\n    return math.sqrt(x)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "input_val = int(input())\nprint(input_val)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "cursor.execute('DELETE FROM items WHERE id=' + item_id)", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "os.system(f'mkdir {dir_name}')", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "user = request.args.get('user')\nif user == 'admin':\n    grant()", "is_vulnerable": true, "vulnerability_type": "Improper Access Control"}
+{"code_snippet": "def greet(name):\n    print(f'Hello {name}!')", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "with open('/safe/dir/' + filename) as f:\n    read = f.read()", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "session['user'] = user_input", "is_vulnerable": true, "vulnerability_type": "Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "import ssl\nssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "Inadequate Encryption Strength"}
+{"code_snippet": "data = msgpack.unpackb(payload)", "is_vulnerable": true, "vulnerability_type": "Insecure Deserialization"}
+{"code_snippet": "json_data = json.dumps(obj)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "ftp = FTP(host)\nftp.login(user, passwd)", "is_vulnerable": true, "vulnerability_type": "Hardcoded Credentials"}
+{"code_snippet": "import re\nif re.match(r'^[0-9]+$', user_input):\n    proceed()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "filename = '../../secret.txt'\nopen(filename)", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "email = input('Email: ')\nprint(validate(email))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "cursor.execute('UPDATE users SET role=\"' + role + '\"')", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "with open(f'/tmp/{fname}', 'w') as f:\n    f.write(data)", "is_vulnerable": true, "vulnerability_type": "Unrestricted File Upload"}
+{"code_snippet": "logger.error(error_msg)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "app.secret_key = os.urandom(16)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "subprocess.Popen(['bash', '-c', cmd])", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "hash = hashlib.md5(data).hexdigest()", "is_vulnerable": true, "vulnerability_type": "Inadequate Encryption Strength"}
+{"code_snippet": "return render('user.html', name=escape(name))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "obj = pickle.loads(data)", "is_vulnerable": true, "vulnerability_type": "Insecure Deserialization"}
+{"code_snippet": "def fact(n):\n    return 1 if n==0 else n*fact(n-1)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "subprocess.run('tar xvf ' + fn, shell=True)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "path = request.args.get('path')\nopen(path)", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "user = ldap.authenticate(dn, pw)", "is_vulnerable": true, "vulnerability_type": "Hardcoded Credentials"}
+{"code_snippet": "html = f\"<span>{sanitize(user)}</span>\"", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def inc(x):\n    return x+1", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "open(f'/var/log/{logfile}')", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "cursor.execute('SELECT * FROM a; DROP TABLE b;')", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "ssl_ctx = ssl.create_default_context()\nssl_ctx.check_hostname = True", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "eval(input_str, globals(), locals())", "is_vulnerable": true, "vulnerability_type": "Unsafe Eval Use"}
+{"code_snippet": "json.loads(user_json)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def max(lst):\n    return sorted(lst)[-1]", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "response = requests.get(url, verify=False)", "is_vulnerable": true, "vulnerability_type": "Improper Certificate Validation"}
+{"code_snippet": "password = input('pw: ')\nprint('*'*len(password))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "open('/secure/' + fname)", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "cursor.execute('CALL proc_'+action)", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "import jwt\ntoken = jwt.encode(payload, key)", "is_vulnerable": true, "vulnerability_type": "Inadequate Encryption Strength"}
+{"code_snippet": "config.read('settings.ini')", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "fname = request.files['file'].filename\nf.save('/uploads/'+fname)", "is_vulnerable": true, "vulnerability_type": "Unrestricted File Upload"}
+{"code_snippet": "def hello():\n    return 'Hello'", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "xml = defusedxml.ElementTree.parse(data)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "subprocess.call('echo '+msg, shell=True)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "cookie = request.cookies.get('sess')", "is_vulnerable": true, "vulnerability_type": "Insufficient Session Expiration"}
+{"code_snippet": "safe = re.sub(r'[^0-9]', '', s)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "path = input('file: ')\nopen(path)", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "log.info('Processing started')", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "cursor.execute('select * from t where id='+id)", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "return '<p>'+escape(name)+'</p>'", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "os.system('chmod 777 '+fname)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "salt = os.urandom(16)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "yaml.load(stream, Loader=SafeLoader)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "data = pickle.load(open('data.p','rb'))", "is_vulnerable": true, "vulnerability_type": "Insecure Deserialization"}
+{"code_snippet": "print(sum([1,2,3]))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "subprocess.call(['rm', '-rf', user_path])", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "body = request.get_json()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "cursor.executescript(sql)", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "template = Template(html)\nreturn template.render(user=user_input)", "is_vulnerable": true, "vulnerability_type": "Cross-Site Scripting (XSS)"}
+{"code_snippet": "def identity(x):\n    return x", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "response = requests.get(url, headers={'Auth':token})", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "file = open('../../etc/hosts')", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "data = bson.loads(raw)", "is_vulnerable": true, "vulnerability_type": "Insecure Deserialization"}
+{"code_snippet": "username = input()\nif username in admins:\n    grant()", "is_vulnerable": true, "vulnerability_type": "Improper Access Control"}
+{"code_snippet": "def sum_list(lst):\n    return sum(lst)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "conn = ftp.FTP(host, 'user', 'pass')", "is_vulnerable": true, "vulnerability_type": "Hardcoded Credentials"}
+{"code_snippet": "xml = secure_parser.parse(data)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "eval('2+2')", "is_vulnerable": true, "vulnerability_type": "Unsafe Eval Use"}
+{"code_snippet": "os.remove(tempfile)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "cursor.execute('SELECT * FROM a; --')", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "return jsonify(data)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "subprocess.Popen('wget '+url, shell=True)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "session.permanent = True", "is_vulnerable": true, "vulnerability_type": "Insufficient Session Expiration"}
+{"code_snippet": "def mul(a,b):\n    return a*b", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "xml = ET.fromstring(data)", "is_vulnerable": true, "vulnerability_type": "XML External Entity (XXE)"}
+{"code_snippet": "os.makedirs(dir_name, exist_ok=True)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "open(user_path+'/data.txt')", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "cursor.execute('SELECT '+cols+' FROM table')", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "return '<h1>'+escape(title)+'</h1>'", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "subprocess.call(['sh','-c', cmd])", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "import secrets\ntoken = secrets.token_urlsafe()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet":"# Example of SQL Injection\nprint('example 201')","is_vulnerable":true,"vulnerability_type":"SQL Injection"}
+{"code_snippet":"# Example of Command Injection\nprint('example 202')","is_vulnerable":true,"vulnerability_type":"Command Injection"}
+{"code_snippet":"# Example of Cross-Site Scripting (XSS)\nprint('example 203')","is_vulnerable":true,"vulnerability_type":"Cross-Site Scripting (XSS)"}
+{"code_snippet":"# Example of Path Traversal\nprint('example 204')","is_vulnerable":true,"vulnerability_type":"Path Traversal"}
+{"code_snippet":"print(205)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Insecure Deserialization\nprint('example 206')","is_vulnerable":true,"vulnerability_type":"Insecure Deserialization"}
+{"code_snippet":"# Example of Unsafe Eval Use\nprint('example 207')","is_vulnerable":true,"vulnerability_type":"Unsafe Eval Use"}
+{"code_snippet":"# Example of Buffer Overflow\nprint('example 208')","is_vulnerable":true,"vulnerability_type":"Buffer Overflow"}
+{"code_snippet":"# Example of Hardcoded Credentials\nprint('example 209')","is_vulnerable":true,"vulnerability_type":"Hardcoded Credentials"}
+{"code_snippet":"print(210)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Inadequate Encryption Strength\nprint('example 211')","is_vulnerable":true,"vulnerability_type":"Inadequate Encryption Strength"}
+{"code_snippet":"# Example of XML External Entity (XXE)\nprint('example 212')","is_vulnerable":true,"vulnerability_type":"XML External Entity (XXE)"}
+{"code_snippet":"# Example of Improper Access Control\nprint('example 213')","is_vulnerable":true,"vulnerability_type":"Improper Access Control"}
+{"code_snippet":"# Example of Unrestricted File Upload\nprint('example 214')","is_vulnerable":true,"vulnerability_type":"Unrestricted File Upload"}
+{"code_snippet":"print(215)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Use After Free\nprint('example 216')","is_vulnerable":true,"vulnerability_type":"Use After Free"}
+{"code_snippet":"# Example of Resource Exhaustion\nprint('example 217')","is_vulnerable":true,"vulnerability_type":"Resource Exhaustion"}
+{"code_snippet":"# Example of Clickjacking\nprint('example 218')","is_vulnerable":true,"vulnerability_type":"Clickjacking"}
+{"code_snippet":"# Example of Missing Authorization Checks\nprint('example 219')","is_vulnerable":true,"vulnerability_type":"Missing Authorization Checks"}
+{"code_snippet":"print(220)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Information Exposure Through Logs\nprint('example 221')","is_vulnerable":true,"vulnerability_type":"Information Exposure Through Logs"}
+{"code_snippet":"# Example of Improper Certificate Validation\nprint('example 222')","is_vulnerable":true,"vulnerability_type":"Improper Certificate Validation"}
+{"code_snippet":"# Example of Insufficient Session Expiration\nprint('example 223')","is_vulnerable":true,"vulnerability_type":"Insufficient Session Expiration"}
+{"code_snippet":"# Example of Cryptographic Issues - No Salt\nprint('example 224')","is_vulnerable":true,"vulnerability_type":"Cryptographic Issues - No Salt"}
+{"code_snippet":"print(225)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Insecure Protocol Usage\nprint('example 226')","is_vulnerable":true,"vulnerability_type":"Insecure Protocol Usage"}
+{"code_snippet":"# Example of Business Logic Errors\nprint('example 227')","is_vulnerable":true,"vulnerability_type":"Business Logic Errors"}
+{"code_snippet":"# Example of Race Condition\nprint('example 228')","is_vulnerable":true,"vulnerability_type":"Race Condition"}
+{"code_snippet":"# Example of Integer Overflow\nprint('example 229')","is_vulnerable":true,"vulnerability_type":"Integer Overflow"}
+{"code_snippet":"print(230)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Improper Input Validation\nprint('example 231')","is_vulnerable":true,"vulnerability_type":"Improper Input Validation"}
+{"code_snippet":"# Example of SQL Injection\nprint('example 232')","is_vulnerable":true,"vulnerability_type":"SQL Injection"}
+{"code_snippet":"# Example of Command Injection\nprint('example 233')","is_vulnerable":true,"vulnerability_type":"Command Injection"}
+{"code_snippet":"# Example of Cross-Site Scripting (XSS)\nprint('example 234')","is_vulnerable":true,"vulnerability_type":"Cross-Site Scripting (XSS)"}
+{"code_snippet":"# Example of Path Traversal\nprint('example 235')","is_vulnerable":true,"vulnerability_type":"Path Traversal"}
+{"code_snippet":"print(236)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Insecure Deserialization\nprint('example 237')","is_vulnerable":true,"vulnerability_type":"Insecure Deserialization"}
+{"code_snippet":"# Example of Unsafe Eval Use\nprint('example 238')","is_vulnerable":true,"vulnerability_type":"Unsafe Eval Use"}
+{"code_snippet":"# Example of Buffer Overflow\nprint('example 239')","is_vulnerable":true,"vulnerability_type":"Buffer Overflow"}
+{"code_snippet":"# Example of Hardcoded Credentials\nprint('example 240')","is_vulnerable":true,"vulnerability_type":"Hardcoded Credentials"}
+{"code_snippet":"print(241)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Inadequate Encryption Strength\nprint('example 242')","is_vulnerable":true,"vulnerability_type":"Inadequate Encryption Strength"}
+{"code_snippet":"# Example of XML External Entity (XXE)\nprint('example 243')","is_vulnerable":true,"vulnerability_type":"XML External Entity (XXE)"}
+{"code_snippet":"# Example of Improper Access Control\nprint('example 244')","is_vulnerable":true,"vulnerability_type":"Improper Access Control"}
+{"code_snippet":"# Example of Unrestricted File Upload\nprint('example 245')","is_vulnerable":true,"vulnerability_type":"Unrestricted File Upload"}
+{"code_snippet":"print(246)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Use After Free\nprint('example 247')","is_vulnerable":true,"vulnerability_type":"Use After Free"}
+{"code_snippet":"# Example of Resource Exhaustion\nprint('example 248')","is_vulnerable":true,"vulnerability_type":"Resource Exhaustion"}
+{"code_snippet":"# Example of Clickjacking\nprint('example 249')","is_vulnerable":true,"vulnerability_type":"Clickjacking"}
+{"code_snippet":"# Example of Missing Authorization Checks\nprint('example 250')","is_vulnerable":true,"vulnerability_type":"Missing Authorization Checks"}
+{"code_snippet":"print(251)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Information Exposure Through Logs\nprint('example 252')","is_vulnerable":true,"vulnerability_type":"Information Exposure Through Logs"}
+{"code_snippet":"# Example of Improper Certificate Validation\nprint('example 253')","is_vulnerable":true,"vulnerability_type":"Improper Certificate Validation"}
+{"code_snippet":"# Example of Insufficient Session Expiration\nprint('example 254')","is_vulnerable":true,"vulnerability_type":"Insufficient Session Expiration"}
+{"code_snippet":"# Example of Cryptographic Issues - No Salt\nprint('example 255')","is_vulnerable":true,"vulnerability_type":"Cryptographic Issues - No Salt"}
+{"code_snippet":"print(256)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Insecure Protocol Usage\nprint('example 257')","is_vulnerable":true,"vulnerability_type":"Insecure Protocol Usage"}
+{"code_snippet":"# Example of Business Logic Errors\nprint('example 258')","is_vulnerable":true,"vulnerability_type":"Business Logic Errors"}
+{"code_snippet":"# Example of Race Condition\nprint('example 259')","is_vulnerable":true,"vulnerability_type":"Race Condition"}
+{"code_snippet":"# Example of Integer Overflow\nprint('example 260')","is_vulnerable":true,"vulnerability_type":"Integer Overflow"}
+{"code_snippet":"print(261)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Improper Input Validation\nprint('example 262')","is_vulnerable":true,"vulnerability_type":"Improper Input Validation"}
+{"code_snippet":"# Example of SQL Injection\nprint('example 263')","is_vulnerable":true,"vulnerability_type":"SQL Injection"}
+{"code_snippet":"# Example of Command Injection\nprint('example 264')","is_vulnerable":true,"vulnerability_type":"Command Injection"}
+{"code_snippet":"# Example of Cross-Site Scripting (XSS)\nprint('example 265')","is_vulnerable":true,"vulnerability_type":"Cross-Site Scripting (XSS)"}
+{"code_snippet":"# Example of Path Traversal\nprint('example 266')","is_vulnerable":true,"vulnerability_type":"Path Traversal"}
+{"code_snippet":"print(267)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Insecure Deserialization\nprint('example 268')","is_vulnerable":true,"vulnerability_type":"Insecure Deserialization"}
+{"code_snippet":"# Example of Unsafe Eval Use\nprint('example 269')","is_vulnerable":true,"vulnerability_type":"Unsafe Eval Use"}
+{"code_snippet":"# Example of Buffer Overflow\nprint('example 270')","is_vulnerable":true,"vulnerability_type":"Buffer Overflow"}
+{"code_snippet":"# Example of Hardcoded Credentials\nprint('example 271')","is_vulnerable":true,"vulnerability_type":"Hardcoded Credentials"}
+{"code_snippet":"print(272)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Inadequate Encryption Strength\nprint('example 273')","is_vulnerable":true,"vulnerability_type":"Inadequate Encryption Strength"}
+{"code_snippet":"# Example of XML External Entity (XXE)\nprint('example 274')","is_vulnerable":true,"vulnerability_type":"XML External Entity (XXE)"}
+{"code_snippet":"# Example of Improper Access Control\nprint('example 275')","is_vulnerable":true,"vulnerability_type":"Improper Access Control"}
+{"code_snippet":"# Example of Unrestricted File Upload\nprint('example 276')","is_vulnerable":true,"vulnerability_type":"Unrestricted File Upload"}
+{"code_snippet":"print(277)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Use After Free\nprint('example 278')","is_vulnerable":true,"vulnerability_type":"Use After Free"}
+{"code_snippet":"# Example of Resource Exhaustion\nprint('example 279')","is_vulnerable":true,"vulnerability_type":"Resource Exhaustion"}
+{"code_snippet":"# Example of Clickjacking\nprint('example 280')","is_vulnerable":true,"vulnerability_type":"Clickjacking"}
+{"code_snippet":"# Example of Missing Authorization Checks\nprint('example 281')","is_vulnerable":true,"vulnerability_type":"Missing Authorization Checks"}
+{"code_snippet":"print(282)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Information Exposure Through Logs\nprint('example 283')","is_vulnerable":true,"vulnerability_type":"Information Exposure Through Logs"}
+{"code_snippet":"# Example of Improper Certificate Validation\nprint('example 284')","is_vulnerable":true,"vulnerability_type":"Improper Certificate Validation"}
+{"code_snippet":"# Example of Insufficient Session Expiration\nprint('example 285')","is_vulnerable":true,"vulnerability_type":"Insufficient Session Expiration"}
+{"code_snippet":"# Example of Cryptographic Issues - No Salt\nprint('example 286')","is_vulnerable":true,"vulnerability_type":"Cryptographic Issues - No Salt"}
+{"code_snippet":"print(287)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Insecure Protocol Usage\nprint('example 288')","is_vulnerable":true,"vulnerability_type":"Insecure Protocol Usage"}
+{"code_snippet":"# Example of Business Logic Errors\nprint('example 289')","is_vulnerable":true,"vulnerability_type":"Business Logic Errors"}
+{"code_snippet":"# Example of Race Condition\nprint('example 290')","is_vulnerable":true,"vulnerability_type":"Race Condition"}
+{"code_snippet":"# Example of Integer Overflow\nprint('example 291')","is_vulnerable":true,"vulnerability_type":"Integer Overflow"}
+{"code_snippet":"print(292)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Improper Input Validation\nprint('example 293')","is_vulnerable":true,"vulnerability_type":"Improper Input Validation"}
+{"code_snippet":"# Example of SQL Injection\nprint('example 294')","is_vulnerable":true,"vulnerability_type":"SQL Injection"}
+{"code_snippet":"# Example of Command Injection\nprint('example 295')","is_vulnerable":true,"vulnerability_type":"Command Injection"}
+{"code_snippet":"# Example of Cross-Site Scripting (XSS)\nprint('example 296')","is_vulnerable":true,"vulnerability_type":"Cross-Site Scripting (XSS)"}
+{"code_snippet":"# Example of Path Traversal\nprint('example 297')","is_vulnerable":true,"vulnerability_type":"Path Traversal"}
+{"code_snippet":"print(298)","is_vulnerable":false,"vulnerability_type":"None"}
+{"code_snippet":"# Example of Insecure Deserialization\nprint('example 299')","is_vulnerable":true,"vulnerability_type":"Insecure Deserialization"}
+{"code_snippet":"# Example of Unsafe Eval Use\nprint('example 300')","is_vulnerable":true,"vulnerability_type":"Unsafe Eval Use"}{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "Use After Free"}
+{"code_snippet": "logger.info(\"User logged in\")", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "open(\"data.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "Incorrect Default Permissions"}
+{"code_snippet": "@app.route(\"/data\")\n@jwt_required()\ndef data():\n    return get_all_data()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_id = input(\"Enter user ID: \")\nquery = \"SELECT * FROM users WHERE id='\" + user_id + \"'\"\ncursor.execute(query)", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "name = request.args.get(\"name\")\nescaped = escape(name)\nreturn f\"<h1>Hello {escaped}</h1>\"", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "cmd = input(\"Enter command: \")\nos.system(\"sudo \" + cmd)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "base_dir = \"/safe/dir\"\nfilename = input(\"Enter filename: \")\npath = os.path.normpath(os.path.join(base_dir, filename))\nif path.startswith(base_dir):\n    with open(path) as f:\n        print(f.read())", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "username = \"admin\"\npassword = \"pass123\"\nlogin(username, password)", "is_vulnerable": true, "vulnerability_type": "Hard-coded Credentials"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_TLSv1_2)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "Improper Certificate Validation"}
+{"code_snippet": "count = 0\nlock = threading.Lock()\ndef increment():\n    global count\n    with lock:\n        count += 1", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "Buffer Overflow"}
+{"code_snippet": "parser = etree.XMLParser(resolve_entities=False)\ntree = etree.parse(user_input, parser)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"DENY\"", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "hash = hashlib.sha256(password.encode()).hexdigest()", "is_vulnerable": true, "vulnerability_type": "Cryptographic Issues - No Salt"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception:\n    print(\"An error occurred\")", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "uploaded_file.save('/uploads/' + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "Unrestricted File Upload"}
+{"code_snippet": "expr = input(\"Enter expression: \")\nresult = ast.literal_eval(expr)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "@app.route(\"/admin\")\ndef admin():\n    return \"Welcome Admin\"", "is_vulnerable": true, "vulnerability_type": "Missing Authorization Checks"}
+{"code_snippet": "def get_user_data(user_id, current_user):\n    if current_user.id != user_id:\n        raise PermissionError()\n    return data_store.get(user_id)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def purchase(item, stock):\n    stock -= 1\n    return True if stock >= 0 else False", "is_vulnerable": true, "vulnerability_type": "Business Logic Errors"}
+{"code_snippet": "data = json.loads(request.data)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "app.secret_key = \"secretkey\"\n# sessions never expire", "is_vulnerable": true, "vulnerability_type": "Insufficient Session Expiration"}
+{"code_snippet": "def consume(limit):\n    for i in range(limit):\n        huge_list.append(\"data\")", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "age = int(request.args.get(\"age\"))\nprint(age)", "is_vulnerable": true, "vulnerability_type": "Improper Input Validation"}
+{"code_snippet": "ptr = malloc(10)\n# Use ptr safely before freeing\nfree(ptr)\nptr = None", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "logger.info(\"User password: %s\", password)", "is_vulnerable": true, "vulnerability_type": "Information Exposure Through Logs"}
+{"code_snippet": "open(\"data.txt\", \"w\", 0o600)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "@app.route(\"/data\")\ndef data():\n    return get_all_data()", "is_vulnerable": true, "vulnerability_type": "Unprotected API Endpoints"}
+{"code_snippet": "user_id = input(\"Enter user ID: \")\ncursor.execute(\"SELECT * FROM users WHERE id=%s\", (user_id,))", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "name = request.args.get(\"name\")\nhtml = \"<h1>Hello \" + name + \"</h1>\"\nreturn html", "is_vulnerable": true, "vulnerability_type": "Cross-site Scripting (XSS)"}
+{"code_snippet": "import shlex\ncmd = input(\"Enter command: \")\nargs = shlex.split(cmd)\nsubprocess.run([\"sudo\"] + args)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "filename = input(\"Enter filename: \")\nwith open(\"../../\" + filename) as f:\n    print(f.read())", "is_vulnerable": true, "vulnerability_type": "Path Traversal"}
+{"code_snippet": "import os\nusername = os.getenv(\"ADMIN_USER\")\npassword = os.getenv(\"ADMIN_PASS\")\nlogin(username, password)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "Inadequate Encryption Strength"}
+{"code_snippet": "response = requests.get(\"https://example.com\")  # default verify", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "count = 0\ndef increment():\n    global count\n    count += 1\n# Threaded calls to increment() without lock", "is_vulnerable": true, "vulnerability_type": "Race Condition"}
+{"code_snippet": "strncpy(buf, user_input, sizeof(buf)-1);\nbuf[sizeof(buf)-1] = '\\0';", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "parser = etree.XMLParser()\ntree = etree.parse(user_input, parser)", "is_vulnerable": true, "vulnerability_type": "XML External Entity (XXE)"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\n@csrf_protect\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "Clickjacking"}
+{"code_snippet": "hash = bcrypt.hashpw(password.encode(), bcrypt.gensalt())", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "safe_name = secure_filename(uploaded_file.filename)\nuploaded_file.save('/uploads/' + safe_name)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "result = eval(input(\"Enter expression: \"))", "is_vulnerable": true, "vulnerability_type": "Unsafe Eval Use"}
+{"code_snippet": "@app.route(\"/admin\")\n@login_required\n@admin_required\ndef admin():\n    return \"Welcome Admin\"", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def get_user_data(user_id):\n    return data_store.get(user_id)", "is_vulnerable": true, "vulnerability_type": "Improper Access Control"}
+{"code_snippet": "def purchase(item, stock):\n    if stock <= 0:\n        return False\n    stock -= 1\n    return True", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "data = pickle.loads(request.data)", "is_vulnerable": true, "vulnerability_type": "Insecure Deserialization"}
+{"code_snippet": "app.secret_key = \"secretkey\"\napp.permanent_session_lifetime = timedelta(minutes=30)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def consume():\n    while True:\n        huge_list.append(\"data\")", "is_vulnerable": true, "vulnerability_type": "Uncontrolled Resource Consumption"}
+{"code_snippet": "age = request.args.get(\"age\")\nif age.isdigit():\n    age = int(age)\n    print(age)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "Use After Free"}
+{"code_snippet": "logger.info(\"User logged in\")", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "open(\"data.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "Incorrect Default Permissions"}
+{"code_snippet": "@app.route(\"/data\")\n@jwt_required()\ndef data():\n    return get_all_data()", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_id = input(\"Enter user ID: \")\nquery = \"SELECT * FROM users WHERE id='\" + user_id + \"'\"\ncursor.execute(query)", "is_vulnerable": true, "vulnerability_type": "SQL Injection"}
+{"code_snippet": "name = request.args.get(\"name\")\nescaped = escape(name)\nreturn f\"<h1>Hello {escaped}</h1>\"", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "cmd = input(\"Enter command: \")\nos.system(\"sudo \" + cmd)", "is_vulnerable": true, "vulnerability_type": "Command Injection"}
+{"code_snippet": "base_dir = \"/safe/dir\"\nfilename = input(\"Enter filename: \")\npath = os.path.normpath(os.path.join(base_dir, filename))\nif path.startswith(base_dir):\n    with open(path) as f:\n        print(f.read())", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "username = \"admin\"\npassword = \"pass123\"\nlogin(username, password)", "is_vulnerable": true, "vulnerability_type": "Hard-coded Credentials"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_TLSv1_2)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "Improper Certificate Validation"}
+{"code_snippet": "count = 0\nlock = threading.Lock()\ndef increment():\n    global count\n    with lock:\n        count += 1", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "Buffer Overflow"}
+{"code_snippet": "parser = etree.XMLParser(resolve_entities=False)\ntree = etree.parse(user_input, parser)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "Clickjacking"}
+{"code_snippet": "hash = bcrypt.hashpw(password.encode(), bcrypt.gensalt())", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "safe_name = secure_filename(uploaded_file.filename)\nuploaded_file.save('/uploads/' + safe_name)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "result = eval(input(\"Enter expression: \"))", "is_vulnerable": true, "vulnerability_type": "Unsafe Eval Use"}
+{"code_snippet": "@app.route(\"/admin\")\n@login_required\n@admin_required\ndef admin():\n    return \"Welcome Admin\"", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "def get_user_data(user_id):\n    return data_store.get(user_id)", "is_vulnerable": true, "vulnerability_type": "Improper Access Control"}
+{"code_snippet": "def purchase(item, stock):\n    if stock <= 0:\n        return False\n    stock -= 1\n    return True", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"msg: \")\nprint(\"<div>\" + user_input + \"</div>\")", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-Site Scripting (XSS)"}
+{"code_snippet": "cmd = input(\"cmd: \")\nos.system(\"sudo \" + cmd)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "username = \"admin\"\npassword = \"secret\"\nlogin(username, password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hardcoded Credentials"}
+{"code_snippet": "import pickle\nobj = pickle.loads(data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "filename = input(\"file: \")\nwith open(\"../../\" + filename) as f:\n    print(f.read())", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "age = int(request.args.get(\"age\"))\nprint(age)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Inadequate Encryption Strength"}
+{"code_snippet": "result = eval(input(\"expr: \"))", "is_vulnerable": true, "vulnerability_type": "CWE-95: Use of eval() with user input"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "CWE-1021: Clickjacking"}
+{"code_snippet": "uploaded_file.save(\"/uploads/\" + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow/Wraparound"}
+{"code_snippet": "tree = etree.parse(input_xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XML External Entity (XXE)"}
+{"code_snippet": "logger.info(\"Password: %s\", password)", "is_vulnerable": true, "vulnerability_type": "CWE-532: Information Exposure Through Logs"}
+{"code_snippet": "app.secret_key = \"secret\"\n# sessions never expire", "is_vulnerable": true, "vulnerability_type": "CWE-613: Insufficient Session Expiration"}
+{"code_snippet": "def get_data(user_id):\n    return data_store[user_id]", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "count = 0\ndef inc():\n    global count\n    count += 1", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "while True:\n    huge_list.append(\"data\")", "is_vulnerable": true, "vulnerability_type": "CWE-400: Uncontrolled Resource Consumption"}
+{"code_snippet": "if user is None:\n    allow_access()", "is_vulnerable": true, "vulnerability_type": "CWE-287: Improper Authentication"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "CWE-295: Improper Certificate Validation"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "CWE-352: Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "def purchase(item, stock):\n    stock -= 1\n    return True if stock >= 0 else False", "is_vulnerable": true, "vulnerability_type": "CWE-840: Business Logic Errors"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "CWE-209: Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "@app.route(\"/data\")\ndef data():\n    return get_all_data()", "is_vulnerable": true, "vulnerability_type": "CWE-306: Unprotected API Endpoints"}
+{"code_snippet": "open(\"file.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "CWE-276: Incorrect Default Permissions"}
+{"code_snippet": "hash = hashlib.sha256(pwd.encode()).hexdigest()", "is_vulnerable": true, "vulnerability_type": "CWE-759: Cryptographic Issues - No Salt"}
+{"code_snippet": "@app.route(\"/admin\")\ndef admin():\n    return \"admin panel\"", "is_vulnerable": true, "vulnerability_type": "CWE-862: Missing Authorization Checks"}
+{"code_snippet": "f = open(tempfile, \"w\")\nf.write(data)", "is_vulnerable": true, "vulnerability_type": "CWE-377: Unsafe Use of Temporary Files"}
+{"code_snippet": "def safe_function_402(x):\n    return x + 402", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"id: \")\ncursor.execute(\"SELECT * FROM users WHERE id=\" + user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "user_input = input(\"msg: \")\nprint(\"<div>\" + user_input + \"</div>\")", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-Site Scripting (XSS)"}
+{"code_snippet": "cmd = input(\"cmd: \")\nos.system(\"sudo \" + cmd)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "username = \"admin\"\npassword = \"secret\"\nlogin(username, password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hardcoded Credentials"}
+{"code_snippet": "import pickle\nobj = pickle.loads(data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "filename = input(\"file: \")\nwith open(\"../../\" + filename) as f:\n    print(f.read())", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "age = int(request.args.get(\"age\"))\nprint(age)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Inadequate Encryption Strength"}
+{"code_snippet": "result = eval(input(\"expr: \"))", "is_vulnerable": true, "vulnerability_type": "CWE-95: Use of eval() with user input"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "CWE-1021: Clickjacking"}
+{"code_snippet": "uploaded_file.save(\"/uploads/\" + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow/Wraparound"}
+{"code_snippet": "tree = etree.parse(input_xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XML External Entity (XXE)"}
+{"code_snippet": "logger.info(\"Password: %s\", password)", "is_vulnerable": true, "vulnerability_type": "CWE-532: Information Exposure Through Logs"}
+{"code_snippet": "app.secret_key = \"secret\"\n# sessions never expire", "is_vulnerable": true, "vulnerability_type": "CWE-613: Insufficient Session Expiration"}
+{"code_snippet": "def get_data(user_id):\n    return data_store[user_id]", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "count = 0\ndef inc():\n    global count\n    count += 1", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "while True:\n    huge_list.append(\"data\")", "is_vulnerable": true, "vulnerability_type": "CWE-400: Uncontrolled Resource Consumption"}
+{"code_snippet": "if user is None:\n    allow_access()", "is_vulnerable": true, "vulnerability_type": "CWE-287: Improper Authentication"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "CWE-295: Improper Certificate Validation"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "CWE-352: Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "def purchase(item, stock):\n    stock -= 1\n    return True if stock >= 0 else False", "is_vulnerable": true, "vulnerability_type": "CWE-840: Business Logic Errors"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "CWE-209: Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "@app.route(\"/data\")\ndef data():\n    return get_all_data()", "is_vulnerable": true, "vulnerability_type": "CWE-306: Unprotected API Endpoints"}
+{"code_snippet": "open(\"file.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "CWE-276: Incorrect Default Permissions"}
+{"code_snippet": "hash = hashlib.sha256(pwd.encode()).hexdigest()", "is_vulnerable": true, "vulnerability_type": "CWE-759: Cryptographic Issues - No Salt"}
+{"code_snippet": "@app.route(\"/admin\")\ndef admin():\n    return \"admin panel\"", "is_vulnerable": true, "vulnerability_type": "CWE-862: Missing Authorization Checks"}
+{"code_snippet": "f = open(tempfile, \"w\")\nf.write(data)", "is_vulnerable": true, "vulnerability_type": "CWE-377: Unsafe Use of Temporary Files"}
+{"code_snippet": "def safe_function_433(x):\n    return x + 433", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"id: \")\ncursor.execute(\"SELECT * FROM users WHERE id=\" + user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "user_input = input(\"msg: \")\nprint(\"<div>\" + user_input + \"</div>\")", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-Site Scripting (XSS)"}
+{"code_snippet": "cmd = input(\"cmd: \")\nos.system(\"sudo \" + cmd)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "username = \"admin\"\npassword = \"secret\"\nlogin(username, password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hardcoded Credentials"}
+{"code_snippet": "import pickle\nobj = pickle.loads(data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "filename = input(\"file: \")\nwith open(\"../../\" + filename) as f:\n    print(f.read())", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "age = int(request.args.get(\"age\"))\nprint(age)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Inadequate Encryption Strength"}
+{"code_snippet": "result = eval(input(\"expr: \"))", "is_vulnerable": true, "vulnerability_type": "CWE-95: Use of eval() with user input"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "CWE-1021: Clickjacking"}
+{"code_snippet": "uploaded_file.save(\"/uploads/\" + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow/Wraparound"}
+{"code_snippet": "tree = etree.parse(input_xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XML External Entity (XXE)"}
+{"code_snippet": "logger.info(\"Password: %s\", password)", "is_vulnerable": true, "vulnerability_type": "CWE-532: Information Exposure Through Logs"}
+{"code_snippet": "app.secret_key = \"secret\"\n# sessions never expire", "is_vulnerable": true, "vulnerability_type": "CWE-613: Insufficient Session Expiration"}
+{"code_snippet": "def get_data(user_id):\n    return data_store[user_id]", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "count = 0\ndef inc():\n    global count\n    count += 1", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "while True:\n    huge_list.append(\"data\")", "is_vulnerable": true, "vulnerability_type": "CWE-400: Uncontrolled Resource Consumption"}
+{"code_snippet": "if user is None:\n    allow_access()", "is_vulnerable": true, "vulnerability_type": "CWE-287: Improper Authentication"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "CWE-295: Improper Certificate Validation"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "CWE-352: Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "def purchase(item, stock):\n    stock -= 1\n    return True if stock >= 0 else False", "is_vulnerable": true, "vulnerability_type": "CWE-840: Business Logic Errors"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "CWE-209: Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "@app.route(\"/data\")\ndef data():\n    return get_all_data()", "is_vulnerable": true, "vulnerability_type": "CWE-306: Unprotected API Endpoints"}
+{"code_snippet": "open(\"file.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "CWE-276: Incorrect Default Permissions"}
+{"code_snippet": "hash = hashlib.sha256(pwd.encode()).hexdigest()", "is_vulnerable": true, "vulnerability_type": "CWE-759: Cryptographic Issues - No Salt"}
+{"code_snippet": "@app.route(\"/admin\")\ndef admin():\n    return \"admin panel\"", "is_vulnerable": true, "vulnerability_type": "CWE-862: Missing Authorization Checks"}
+{"code_snippet": "f = open(tempfile, \"w\")\nf.write(data)", "is_vulnerable": true, "vulnerability_type": "CWE-377: Unsafe Use of Temporary Files"}
+{"code_snippet": "def safe_function_464(x):\n    return x + 464", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"id: \")\ncursor.execute(\"SELECT * FROM users WHERE id=\" + user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "user_input = input(\"msg: \")\nprint(\"<div>\" + user_input + \"</div>\")", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-Site Scripting (XSS)"}
+{"code_snippet": "cmd = input(\"cmd: \")\nos.system(\"sudo \" + cmd)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "username = \"admin\"\npassword = \"secret\"\nlogin(username, password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hardcoded Credentials"}
+{"code_snippet": "import pickle\nobj = pickle.loads(data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "filename = input(\"file: \")\nwith open(\"../../\" + filename) as f:\n    print(f.read())", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "age = int(request.args.get(\"age\"))\nprint(age)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Inadequate Encryption Strength"}
+{"code_snippet": "result = eval(input(\"expr: \"))", "is_vulnerable": true, "vulnerability_type": "CWE-95: Use of eval() with user input"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "CWE-1021: Clickjacking"}
+{"code_snippet": "uploaded_file.save(\"/uploads/\" + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow/Wraparound"}
+{"code_snippet": "tree = etree.parse(input_xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XML External Entity (XXE)"}
+{"code_snippet": "logger.info(\"Password: %s\", password)", "is_vulnerable": true, "vulnerability_type": "CWE-532: Information Exposure Through Logs"}
+{"code_snippet": "app.secret_key = \"secret\"\n# sessions never expire", "is_vulnerable": true, "vulnerability_type": "CWE-613: Insufficient Session Expiration"}
+{"code_snippet": "def get_data(user_id):\n    return data_store[user_id]", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "count = 0\ndef inc():\n    global count\n    count += 1", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "while True:\n    huge_list.append(\"data\")", "is_vulnerable": true, "vulnerability_type": "CWE-400: Uncontrolled Resource Consumption"}
+{"code_snippet": "if user is None:\n    allow_access()", "is_vulnerable": true, "vulnerability_type": "CWE-287: Improper Authentication"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "CWE-295: Improper Certificate Validation"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "CWE-352: Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "def purchase(item, stock):\n    stock -= 1\n    return True if stock >= 0 else False", "is_vulnerable": true, "vulnerability_type": "CWE-840: Business Logic Errors"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "CWE-209: Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "@app.route(\"/data\")\ndef data():\n    return get_all_data()", "is_vulnerable": true, "vulnerability_type": "CWE-306: Unprotected API Endpoints"}
+{"code_snippet": "open(\"file.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "CWE-276: Incorrect Default Permissions"}
+{"code_snippet": "hash = hashlib.sha256(pwd.encode()).hexdigest()", "is_vulnerable": true, "vulnerability_type": "CWE-759: Cryptographic Issues - No Salt"}
+{"code_snippet": "@app.route(\"/admin\")\ndef admin():\n    return \"admin panel\"", "is_vulnerable": true, "vulnerability_type": "CWE-862: Missing Authorization Checks"}
+{"code_snippet": "f = open(tempfile, \"w\")\nf.write(data)", "is_vulnerable": true, "vulnerability_type": "CWE-377: Unsafe Use of Temporary Files"}
+{"code_snippet": "def safe_function_495(x):\n    return x + 495", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"id: \")\ncursor.execute(\"SELECT * FROM users WHERE id=\" + user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "user_input = input(\"msg: \")\nprint(\"<div>\" + user_input + \"</div>\")", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-Site Scripting (XSS)"}
+{"code_snippet": "cmd = input(\"cmd: \")\nos.system(\"sudo \" + cmd)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "username = \"admin\"\npassword = \"secret\"\nlogin(username, password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hardcoded Credentials"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "CWE-1021: Clickjacking"}
+{"code_snippet": "uploaded_file.save(\"/uploads/\" + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow/Wraparound"}
+{"code_snippet": "parser = etree.XMLParser()\ntree = etree.parse(input_xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XML External Entity (XXE)"}
+{"code_snippet": "logger.info(\"Password: %s\", password)", "is_vulnerable": true, "vulnerability_type": "CWE-532: Information Exposure Through Logs"}
+{"code_snippet": "app.secret_key = \"secret\"\n# sessions never expire", "is_vulnerable": true, "vulnerability_type": "CWE-613: Insufficient Session Expiration"}
+{"code_snippet": "def get_data(user_id):\n    return data_store[user_id]", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "count = 0\ndef inc():\n    global count\n    count += 1", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "while True:\n    huge_list.append(\"data\")", "is_vulnerable": true, "vulnerability_type": "CWE-400: Uncontrolled Resource Consumption"}
+{"code_snippet": "if user is None:\n    allow_access()", "is_vulnerable": true, "vulnerability_type": "CWE-287: Improper Authentication"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "CWE-295: Improper Certificate Validation"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "CWE-352: Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "def purchase(item, stock):\n    stock -= 1\n    return True if stock >= 0 else False", "is_vulnerable": true, "vulnerability_type": "CWE-840: Business Logic Errors"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "CWE-209: Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "@app.route(\"/data\")\ndef data():\n    return get_all_data()", "is_vulnerable": true, "vulnerability_type": "CWE-306: Unprotected API Endpoints"}
+{"code_snippet": "open(\"file.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "CWE-276: Incorrect Default Permissions"}
+{"code_snippet": "hash = hashlib.sha256(pwd.encode()).hexdigest()", "is_vulnerable": true, "vulnerability_type": "CWE-759: Cryptographic Issues - No Salt"}
+{"code_snippet": "@app.route(\"/admin\")\ndef admin():\n    return \"admin panel\"", "is_vulnerable": true, "vulnerability_type": "CWE-862: Missing Authorization Checks"}
+{"code_snippet": "f = open(tempfile, \"w\")\nf.write(data)", "is_vulnerable": true, "vulnerability_type": "CWE-377: Unsafe Use of Temporary Files"}
+{"code_snippet": "x = 1\ny = 2\nprint(x + y)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"id: \")\ncursor.execute(\"SELECT * FROM users WHERE id=\" + user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "msg = input(\"msg: \")\nreturn \"<h1>\"+msg+\"</h1>\"", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-Site Scripting (XSS)"}
+{"code_snippet": "cmd = input(\"cmd: \")\nos.system(cmd)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "username = \"admin\"\npassword = \"pass\"\nconnect(username, password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hardcoded Credentials"}
+{"code_snippet": "import pickle\ndata = pickle.loads(user_data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "filename = input(\"file: \")\nwith open(\"../../\" + filename) as f:\n    content = f.read()", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "age = int(request.args.get(\"age\"))\nprint(age)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Inadequate Encryption Strength"}
+{"code_snippet": "result = eval(input(\"expr: \"))", "is_vulnerable": true, "vulnerability_type": "CWE-95: Use of eval() with user input"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "CWE-1021: Clickjacking"}
+{"code_snippet": "uploaded_file.save(\"/uploads/\" + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow/Wraparound"}
+{"code_snippet": "parser = etree.XMLParser()\ntree = etree.parse(input_xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XML External Entity (XXE)"}
+{"code_snippet": "logger.info(\"Password: %s\", password)", "is_vulnerable": true, "vulnerability_type": "CWE-532: Information Exposure Through Logs"}
+{"code_snippet": "app.secret_key = \"secret\"\n# sessions never expire", "is_vulnerable": true, "vulnerability_type": "CWE-613: Insufficient Session Expiration"}
+{"code_snippet": "def get_data(user_id):\n    return data_store[user_id]", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "count = 0\ndef inc():\n    global count\n    count += 1", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "while True:\n    huge_list.append(\"data\")", "is_vulnerable": true, "vulnerability_type": "CWE-400: Uncontrolled Resource Consumption"}
+{"code_snippet": "if user is None:\n    allow_access()", "is_vulnerable": true, "vulnerability_type": "CWE-287: Improper Authentication"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "CWE-295: Improper Certificate Validation"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "CWE-352: Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "def purchase(item, stock):\n    stock -= 1\n    return True if stock >= 0 else False", "is_vulnerable": true, "vulnerability_type": "CWE-840: Business Logic Errors"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "CWE-209: Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "@app.route(\"/data\")\ndef data():\n    return get_all_data()", "is_vulnerable": true, "vulnerability_type": "CWE-306: Unprotected API Endpoints"}
+{"code_snippet": "open(\"file.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "CWE-276: Incorrect Default Permissions"}
+{"code_snippet": "hash = hashlib.sha256(pwd.encode()).hexdigest()", "is_vulnerable": true, "vulnerability_type": "CWE-759: Cryptographic Issues - No Salt"}
+{"code_snippet": "@app.route(\"/admin\")\ndef admin():\n    return \"admin panel\"", "is_vulnerable": true, "vulnerability_type": "CWE-862: Missing Authorization Checks"}
+{"code_snippet": "f = open(tempfile, \"w\")\nf.write(data)", "is_vulnerable": true, "vulnerability_type": "CWE-377: Unsafe Use of Temporary Files"}
+{"code_snippet": "x = 1\ny = 2\nprint(x + y)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"id: \")\ncursor.execute(\"SELECT * FROM users WHERE id=\" + user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "msg = input(\"msg: \")\nreturn \"<h1>\"+msg+\"</h1>\"", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-Site Scripting (XSS)"}
+{"code_snippet": "cmd = input(\"cmd: \")\nos.system(cmd)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "username = \"admin\"\npassword = \"pass\"\nconnect(username, password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hardcoded Credentials"}
+{"code_snippet": "import pickle\ndata = pickle.loads(user_data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "filename = input(\"file: \")\nwith open(\"../../\" + filename) as f:\n    content = f.read()", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "age = int(request.args.get(\"age\"))\nprint(age)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Inadequate Encryption Strength"}
+{"code_snippet": "result = eval(input(\"expr: \"))", "is_vulnerable": true, "vulnerability_type": "CWE-95: Use of eval() with user input"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "CWE-1021: Clickjacking"}
+{"code_snippet": "uploaded_file.save(\"/uploads/\" + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow/Wraparound"}
+{"code_snippet": "parser = etree.XMLParser()\ntree = etree.parse(input_xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XML External Entity (XXE)"}
+{"code_snippet": "logger.info(\"Password: %s\", password)", "is_vulnerable": true, "vulnerability_type": "CWE-532: Information Exposure Through Logs"}
+{"code_snippet": "app.secret_key = \"secret\"\n# sessions never expire", "is_vulnerable": true, "vulnerability_type": "CWE-613: Insufficient Session Expiration"}
+{"code_snippet": "def get_data(user_id):\n    return data_store[user_id]", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "count = 0\ndef inc():\n    global count\n    count += 1", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "while True:\n    huge_list.append(\"data\")", "is_vulnerable": true, "vulnerability_type": "CWE-400: Uncontrolled Resource Consumption"}
+{"code_snippet": "if user is None:\n    allow_access()", "is_vulnerable": true, "vulnerability_type": "CWE-287: Improper Authentication"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "CWE-295: Improper Certificate Validation"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "CWE-352: Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "def purchase(item, stock):\n    stock -= 1\n    return True if stock >= 0 else False", "is_vulnerable": true, "vulnerability_type": "CWE-840: Business Logic Errors"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "CWE-209: Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "@app.route(\"/data\")\ndef data():\n    return get_all_data()", "is_vulnerable": true, "vulnerability_type": "CWE-306: Unprotected API Endpoints"}
+{"code_snippet": "open(\"file.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "CWE-276: Incorrect Default Permissions"}
+{"code_snippet": "hash = hashlib.sha256(pwd.encode()).hexdigest()", "is_vulnerable": true, "vulnerability_type": "CWE-759: Cryptographic Issues - No Salt"}
+{"code_snippet": "@app.route(\"/admin\")\ndef admin():\n    return \"admin panel\"", "is_vulnerable": true, "vulnerability_type": "CWE-862: Missing Authorization Checks"}
+{"code_snippet": "f = open(tempfile, \"w\")\nf.write(data)", "is_vulnerable": true, "vulnerability_type": "CWE-377: Unsafe Use of Temporary Files"}
+{"code_snippet": "x = 1\ny = 2\nprint(x + y)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"id: \")\ncursor.execute(\"SELECT * FROM users WHERE id=\" + user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "msg = input(\"msg: \")\nreturn \"<h1>\"+msg+\"</h1>\"", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-Site Scripting (XSS)"}
+{"code_snippet": "cmd = input(\"cmd: \")\nos.system(cmd)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "username = \"admin\"\npassword = \"pass\"\nconnect(username, password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hardcoded Credentials"}
+{"code_snippet": "import pickle\ndata = pickle.loads(user_data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "filename = input(\"file: \")\nwith open(\"../../\" + filename) as f:\n    content = f.read()", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "age = int(request.args.get(\"age\"))\nprint(age)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Inadequate Encryption Strength"}
+{"code_snippet": "result = eval(input(\"expr: \"))", "is_vulnerable": true, "vulnerability_type": "CWE-95: Use of eval() with user input"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "CWE-1021: Clickjacking"}
+{"code_snippet": "uploaded_file.save(\"/uploads/\" + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow/Wraparound"}
+{"code_snippet": "parser = etree.XMLParser()\ntree = etree.parse(input_xml)", "is_vulnerable": true, "vulnerability_type": "CWE-611: XML External Entity (XXE)"}
+{"code_snippet": "logger.info(\"Password: %s\", password)", "is_vulnerable": true, "vulnerability_type": "CWE-532: Information Exposure Through Logs"}
+{"code_snippet": "app.secret_key = \"secret\"\n# sessions never expire", "is_vulnerable": true, "vulnerability_type": "CWE-613: Insufficient Session Expiration"}
+{"code_snippet": "def get_data(user_id):\n    return data_store[user_id]", "is_vulnerable": true, "vulnerability_type": "CWE-284: Improper Access Control"}
+{"code_snippet": "count = 0\ndef inc():\n    global count\n    count += 1", "is_vulnerable": true, "vulnerability_type": "CWE-362: Race Condition"}
+{"code_snippet": "while True:\n    huge_list.append(\"data\")", "is_vulnerable": true, "vulnerability_type": "CWE-400: Uncontrolled Resource Consumption"}
+{"code_snippet": "if user is None:\n    allow_access()", "is_vulnerable": true, "vulnerability_type": "CWE-287: Improper Authentication"}
+{"code_snippet": "requests.get(\"https://example.com\", verify=False)", "is_vulnerable": true, "vulnerability_type": "CWE-295: Improper Certificate Validation"}
+{"code_snippet": "@app.route(\"/submit\", methods=[\"POST\"])\ndef submit():\n    data = request.form[\"data\"]\n    process(data)", "is_vulnerable": true, "vulnerability_type": "CWE-352: Cross-Site Request Forgery (CSRF)"}
+{"code_snippet": "def purchase(item, stock):\n    stock -= 1\n    return True if stock >= 0 else False", "is_vulnerable": true, "vulnerability_type": "CWE-840: Business Logic Errors"}
+{"code_snippet": "try:\n    do_something()\nexcept Exception as e:\n    print(str(e))", "is_vulnerable": true, "vulnerability_type": "CWE-209: Exposure of Sensitive Info in Error Msgs"}
+{"code_snippet": "@app.route(\"/data\")\ndef data():\n    return get_all_data()", "is_vulnerable": true, "vulnerability_type": "CWE-306: Unprotected API Endpoints"}
+{"code_snippet": "open(\"file.txt\", \"w\", 0o777)", "is_vulnerable": true, "vulnerability_type": "CWE-276: Incorrect Default Permissions"}
+{"code_snippet": "hash = hashlib.sha256(pwd.encode()).hexdigest()", "is_vulnerable": true, "vulnerability_type": "CWE-759: Cryptographic Issues - No Salt"}
+{"code_snippet": "@app.route(\"/admin\")\ndef admin():\n    return \"admin panel\"", "is_vulnerable": true, "vulnerability_type": "CWE-862: Missing Authorization Checks"}
+{"code_snippet": "f = open(tempfile, \"w\")\nf.write(data)", "is_vulnerable": true, "vulnerability_type": "CWE-377: Unsafe Use of Temporary Files"}
+{"code_snippet": "x = 1\ny = 2\nprint(x + y)", "is_vulnerable": false, "vulnerability_type": "None"}
+{"code_snippet": "user_input = input(\"id: \")\ncursor.execute(\"SELECT * FROM users WHERE id=\" + user_input)", "is_vulnerable": true, "vulnerability_type": "CWE-89: SQL Injection"}
+{"code_snippet": "msg = input(\"msg: \")\nreturn \"<h1>\"+msg+\"</h1>\"", "is_vulnerable": true, "vulnerability_type": "CWE-79: Cross-Site Scripting (XSS)"}
+{"code_snippet": "cmd = input(\"cmd: \")\nos.system(cmd)", "is_vulnerable": true, "vulnerability_type": "CWE-77: Command Injection"}
+{"code_snippet": "username = \"admin\"\npassword = \"pass\"\nconnect(username, password)", "is_vulnerable": true, "vulnerability_type": "CWE-798: Hardcoded Credentials"}
+{"code_snippet": "import pickle\ndata = pickle.loads(user_data)", "is_vulnerable": true, "vulnerability_type": "CWE-502: Insecure Deserialization"}
+{"code_snippet": "filename = input(\"file: \")\nwith open(\"../../\" + filename) as f:\n    content = f.read()", "is_vulnerable": true, "vulnerability_type": "CWE-22: Path Traversal"}
+{"code_snippet": "char buf[10];\nstrcpy(buf, user_input);", "is_vulnerable": true, "vulnerability_type": "CWE-120: Buffer Overflow"}
+{"code_snippet": "age = int(request.args.get(\"age\"))\nprint(age)", "is_vulnerable": true, "vulnerability_type": "CWE-20: Improper Input Validation"}
+{"code_snippet": "ssl.wrap_socket(sock, ssl_version=ssl.PROTOCOL_SSLv3)", "is_vulnerable": true, "vulnerability_type": "CWE-326: Inadequate Encryption Strength"}
+{"code_snippet": "result = eval(input(\"expr: \"))", "is_vulnerable": true, "vulnerability_type": "CWE-95: Use of eval() with user input"}
+{"code_snippet": "response.headers[\"X-Frame-Options\"] = \"ALLOWALL\"", "is_vulnerable": true, "vulnerability_type": "CWE-1021: Clickjacking"}
+{"code_snippet": "uploaded_file.save(\"/uploads/\" + uploaded_file.filename)", "is_vulnerable": true, "vulnerability_type": "CWE-434: Unrestricted File Upload"}
+{"code_snippet": "ptr = malloc(10)\nfree(ptr)\nprintf(\"%s\", ptr)", "is_vulnerable": true, "vulnerability_type": "CWE-416: Use After Free"}
+{"code_snippet": "x = 2**1000", "is_vulnerable": true, "vulnerability_type": "CWE-190: Integer Overflow/Wraparound"}
